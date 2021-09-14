@@ -17,15 +17,20 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Address\Commands\CreateAddress\" />
+    <Folder Include="Address\Common\" />
     <Folder Include="Basket\Commands\" />
     <Folder Include="Basket\Common\" />
     <Folder Include="Basket\Queries\" />
-    <Folder Include="Order\Commands\" />
+    <Folder Include="Order\Commands\AddOrder\" />
+    <Folder Include="Order\Commands\AddOrderItemToOrder\" />
+    <Folder Include="Order\Commands\DeleteOrder\" />
+    <Folder Include="Order\Commands\UpdateOrder\" />
     <Folder Include="Order\Common\" />
-    <Folder Include="Order\Queries\" />
-    <Folder Include="Product\Commands\DeleteProduct\" />
-    <Folder Include="Product\Commands\UpdateProduct\" />
-    <Folder Include="Product\Common\" />
+    <Folder Include="Order\Queries\GetOrderById\" />
+    <Folder Include="Order\Queries\GetRecentOrders\" />
+    <Folder Include="Order\Queries\GetOrderItemsByOrderId\" />
+    <Folder Include="Order\Queries\GetRecentOrdersByUserId\" />
   </ItemGroup>
 
 </Project>

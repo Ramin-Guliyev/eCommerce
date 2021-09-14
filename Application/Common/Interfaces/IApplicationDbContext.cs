@@ -16,7 +16,7 @@ namespace Application.Common.Interfaces
         public DbSet<BasketItem> BasketItems { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderItem> OrderItems { get; set; }
-        public DbSet<Address> Addresses { get; set; }
+        public DbSet<Domain.Entities.Address> Addresses { get; set; }
         Task<int> SaveChangesAsync(CancellationToken cancellationToken);
     }
 }

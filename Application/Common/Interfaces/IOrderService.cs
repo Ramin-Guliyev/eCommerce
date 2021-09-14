@@ -11,7 +11,7 @@ namespace Application.Common.Interfaces
 {
     public interface IOrderService
     {
-        Task<Result> CreateAddress(Address address);
+        Task<Result> CreateAddress(Domain.Entities.Address address);
 
         Task<Result> AddOrderAsync(Order Order);
 
@@ -27,7 +27,7 @@ namespace Application.Common.Interfaces
 
         Task<List<Order>> GetRecentOrdersAsync(int n, string userID);
 
-        Task<Address> GetAddressByIDAsync(int id);
+        Task<Domain.Entities.Address> GetAddressByIDAsync(int id);
 
         Task<List<OrderItem>> GetOrderItemsByOrderIDAsync(int id);
     }
