@@ -3,4 +3,4 @@
 ## Domain Layer ✔
 ## Application Layer ✔
 ## Infrastructure Layer - little bit modification in the future
-## Web Api Layer  ✗
+## Web Api Layer  ❌
